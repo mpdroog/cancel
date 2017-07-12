@@ -342,7 +342,7 @@ pro Monat
 .modal-cancel .icon {
 	display: none;
 	position: absolute;
-	left: 0;
+	left: -20;
 	width: 500px;
 	height: 100%;
 	z-index: 10;
@@ -569,6 +569,13 @@ pro Monat
 .bigtext .btn-secondary, .bigtext .btn-secondary:hover {
 	background-color: #FFFFFF;
 	color: #259aeb;
+}
+
+/* Opera hack */
+noindex:-o-prefocus, .class {
+	.modal-cancel .icon {
+		display: none;
+	}
 }
 </style>
 <script>
