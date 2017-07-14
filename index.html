@@ -14,8 +14,8 @@
 <div class="row">
 <div class="modal-cancel col-md-offset-2 col-md-8">
 	<div id="js-form-step1" class="row js-steps">
-		<div class="icon icon-question"></div>
-		<div class="col img col-md-5 col-xs-12"></div>
+		<div class="overlay overlay-question"></div>
+		<div class="col img slide-1 col-md-5 col-xs-12"></div>
 		<div class="col step-text col-md-7 col-xs-12">
 			<h1>Du möchtest uns verlassen?</h1>
 			<p>Hast Du noch Fragen zur Nutzung von SpyOFF? Vielleicht helfen Dir ja die am häu gsten gestellten Nutzerfragen weiter!</p>
@@ -35,37 +35,48 @@
 			 
 			<p>&nbsp;</p>
 			<div class="bottom">
-				<a href="" class="back" id="js-next1">weiter</a> <a href="" class="btn btn-secondary">Abbrechen</a>
+				<a href="" class="back">weiter</a> <a href="" class="btn btn-secondary">Abbrechen</a>
 			</div>
 		</div>
 	</div>
 
 	<div id="js-form-step2" class="row js-steps hidden">
-		<div class="icon icon-exclamation"></div>
-		<div class="col img col-md-5 col-xs-12"></div>
+		<div class="overlay overlay-exclamation"></div>
+		<div class="col img slide-2 col-md-5 col-xs-12"></div>
 		<div class="col step-text col-md-7 col-xs-12">
-<h1 class="red">Surfen ohne SpyOFF?</h1>
-<p>Wenn Du SpyOFF kündigst kannst Du folgende Vorteile nicht mehr nutzen:</p>
+			<h1 class="red">Surfen ohne SpyOFF?</h1>
+			<p>Wenn Du SpyOFF kündigst kannst Du folgende Vorteile nicht mehr nutzen:</p>
 
-<ul>
-<li class="cb"><img class="fl" src="img/unsafe.png" width="125" /><div><h2>Deine Aktivitäten im Netz sind ungeschützt!</h2>
-Ohne SpyOFF können Deine Aktivitäten wie Fußabrücke im Netz zurückverfolgt werden.</div></li>
-<li class="cb"><img class="fl" src="img/freedom.png" width="125" /><h2>Deine Freiheit im Netz ist eingeschränkt!</h2>
-Ohne SpyOFF kannst Du keine Internetzensur mehr umgehen und dein Surf- und Streamingvergnügen ist eingeschränkt.</li>
-<li class="cb"><img class="fl" src="img/hackable.png" width="125" /><h2>Du bist hackbar in öffentlichen Netzwerken</h2>
-Im Urlaub oder Caffee das offene WLAN nutzen? Ohne Spy- OFF sind Deine persönlichen Daten leicht zu hacken!</li>
-</ul>
+			<ul>
+				<li class="cb">
+					<img class="fl" src="img/icon-unsafe.png" width="125" />
+					<div>
+						<h2>Deine Aktivitäten im Netz sind ungeschützt!</h2>
+						Ohne SpyOFF können Deine Aktivitäten wie Fußabrücke im Netz zurückverfolgt werden.
+					</div>
+				</li>
+				<li class="cb">
+					<img class="fl" src="img/icon-freedom.png" width="125" />
+					<h2>Deine Freiheit im Netz ist eingeschränkt!</h2>
+					Ohne SpyOFF kannst Du keine Internetzensur mehr umgehen und dein Surf- und Streamingvergnügen ist eingeschränkt.
+				</li>
+				<li class="cb">
+					<img class="fl" src="img/icon-hackable.png" width="125" />
+					<h2>Du bist hackbar in öffentlichen Netzwerken</h2>
+					Im Urlaub oder Caffee das offene WLAN nutzen? Ohne Spy- OFF sind Deine persönlichen Daten leicht zu hacken!
+				</li>
+			</ul>
 
 			<p>&nbsp;</p>
 			<div class="bottom">
-				<a href="" class="back" id="js-next1">weiter</a> <a href="" class="btn btn-secondary">Abbrechen</a>
+				<a href="" class="back">weiter</a> <a href="" class="btn btn-secondary">Abbrechen</a>
 			</div>
 		</div>
 	</div>
 
 	<div id="js-form-step3" class="row js-steps hidden">
-		<div class="icon icon-question"></div>
-		<div class="col img col-md-5 col-xs-12"></div>
+		<div class="overlay overlay-question"></div>
+		<div class="col img slide-3 col-md-5 col-xs-12"></div>
 		<div class="col step-text col-md-7 col-xs-12">
 			<h1>Was können wir verbessern?</h1>
 			<p>Wir von SpyOFF arbeiten stets daran, unser Produkt zu verbessern, desswe- gen ist uns Deine Meinung wirklich wichtig!</p>
@@ -73,75 +84,77 @@ Im Urlaub oder Caffee das offene WLAN nutzen? Ohne Spy- OFF sind Deine persönl
 
 			<p>&nbsp;</p>
 			<div class="bottom">
-				<a href="" class="back" id="js-next1">weiter</a> <a href="" class="btn btn-secondary">Abbrechen</a>
+				<a href="" class="back">weiter</a> <a href="" class="btn btn-secondary">Abbrechen</a>
 			</div>
 		</div>
 	</div>
 
 	<div id="js-form-step4" class="row js-steps hidden">
-		<div class="icon icon-gift"></div>
-		<div class="col img col-md-5 col-xs-12"></div>
+		<div class="overlay overlay-gift"></div>
+		<div class="col img slide-4 col-md-5 col-xs-12"></div>
 		<div class="col step-text col-md-7 col-xs-12">
 			<h1>Wir verlängern Deinen Testzeitraum!</h1>
 			<p>Du hattest nicht genug Zeit SpyOFF ausgiebig zu Testen? Kein Problem! Wir verlän- gern Deinen Testzeitraum um weitere 15 Tage.</p>
 
-			<div style="background-image: url('img/icon_circle.png'); min-height: 400px; background-repeat: no-repeat; position: relative; max-width: 400px">
-				<div style="position: absolute; top: 45%; left: 25%; font-weight: bold; font-size: 30px"><a href="" style="display: block">
-+15 tage gratis</a></div>
-				<div style="position: absolute; top: 60%; left: 25%"><a href="" class="btn btn-secondary btn-center" style="width: 210px">Jetzt Testzeltraum verlängern!</a></div>
+			<div class="resizable-blocks">
+				<div class="text"><a href="" class="dp">+15 tage gratis</a></div>
+				<div class="button">
+					<a href="" class="btn btn-secondary btn-center">
+						Jetzt Testzeltraum verlängern!
+					</a>
+				</div>
 			</div>
 			<p class="center">Satz der beschreibt was passiert, wenn Testzeitraum verlängert wird.</p>
 
 			<p>&nbsp;</p>
 			<div class="bottom">
-				<a href="" class="back" id="js-next1">weiter</a> <a href="" class="btn btn-secondary">Abbrechen</a>
+				<a href="" class="back">weiter</a> <a href="" class="btn btn-secondary">Abbrechen</a>
 			</div>
- 
 		</div>
 	</div>
 
 	<div id="js-form-step5" class="row js-steps hidden">
-		<div class="icon icon-reload"></div>
-		<div class="col img col-md-5 col-xs-12"></div>
+		<div class="overlay overlay-reload"></div>
+		<div class="col img slide-5 col-md-5 col-xs-12"></div>
 		<div class="col step-text col-md-7 col-xs-12">
 			<h1>Geld sparen oder flexibel bleiben?</h1>
-			<p>Wähle das Paket, das zu Dir passt.</p>
+			<p class="pb10">Wähle das Paket, das zu Dir passt.</p>
 
-			<div class="row pb30">
+			<div class="row pb30 block-center">
 				<div class="package mr50">
 					<div class="title">STARTER</div>
-					<p>Uneingeschränkter VPN<br> Zugang<br> monatliche Abbuchung<br> 1 Monat Laufzeit</p>
-					<p class="bold">9,99 €</p>
+					<p class="pb10">Uneingeschränkter VPN<br> Zugang<br> monatliche Abbuchung<br> 1 Monat Laufzeit</p>
+					<p class="bold pb10">9,99 €</p>
 					<div class="selected">Paket wechseln</div>
 				</div>
 				<div class="fill50"></div>
 				<div class="package selected">
 					<div class="title">PREMIUM</div>
-					<p>Uneingeschränkter VPN<br> Zugang<br> einmalige Abbuchung<br> 12 Monat Laufzeit</p>
-					<p class="bold">6,99 €</p>
+					<p class="pb10">Uneingeschränkter VPN<br> Zugang<br> einmalige Abbuchung<br> 12 Monat Laufzeit</p>
+					<p class="bold pb10">6,99 €</p>
 					<div class="selected">Paket wechseln</div>
 				</div>
 			</div>
 
-			<p>Wir mögen es simpel. Uneingeschränkter Zugang, Datenvolumen und Server- auswahl - für einen Monat oder ein Jahr!</p>
-			<p>Buche Deinen Plan ganz einfach mit einem klick um!</p>
+			<p class="pb10">Wir mögen es simpel. Uneingeschränkter Zugang, Datenvolumen und Server- auswahl - für einen Monat oder ein Jahr!</p>
+			<p class="pb10">Buche Deinen Plan ganz einfach mit einem klick um!</p>
 
-			<p>&nbsp;</p>
+			<p class="pb10">&nbsp;</p>
 			<div class="bottom">
-				<a href="" class="back" id="js-next1">weiter</a> <a href="" class="btn btn-secondary">Abbrechen</a>
+				<a href="" class="back">weiter</a> <a href="" class="btn btn-secondary">Abbrechen</a>
 			</div>
  
 		</div>
 	</div>
 
 	<div id="js-form-step6" class="row js-steps hidden">
-		<div class="icon icon-15percent"></div>
-		<div class="col img col-md-5 col-xs-12"></div>
+		<div class="overlay overlay-15percent"></div>
+		<div class="col img slide-6 col-md-5 col-xs-12"></div>
 		<div class="col step-text col-md-7 col-xs-12">
 			<h1>Du bist uns als Kunde wichtig!</h1>
 			<p>Sichere Dir jetzt - 15% Treuerabatt für Deine nächste Abbuchung!</p>
 
-			<div class="row pb10" data-link="">
+			<div class="row pb10 block-center" data-link="">
 				<div class="package mr50 selected center">
 					<div class="title">PREMIUM</div>
 					<p>Uneingeschränkter VPN<br> Zugang<br> einmalige Abbuchung<br> 12 Monat Laufzeit</p>
@@ -155,20 +168,20 @@ Im Urlaub oder Caffee das offene WLAN nutzen? Ohne Spy- OFF sind Deine persönl
 
 			<p>&nbsp;</p>
 			<div class="bottom">
-				<a href="" class="back" id="js-next1">weiter</a> <a href="" class="btn btn-secondary">Abbrechen</a>
+				<a href="" class="back">weiter</a> <a href="" class="btn btn-secondary">Abbrechen</a>
 			</div>
  
 		</div>
 	</div>
 
 	<div id="js-form-step7" class="row js-steps hidden">
-		<div class="icon icon-free"></div>
-		<div class="col img col-md-5 col-xs-12"></div>
+		<div class="overlay overlay-free"></div>
+		<div class="col img slide-4 col-md-5 col-xs-12"></div>
 		<div class="col step-text col-md-7 col-xs-12">
 			<h1>Wechsel jetzt zu Deinem FREE Account</h1>
 			<p>Du möchtest uns noch nicht ganz verlassen? Dann nutze jetzt Deine Chance und wechsle zum neuen SpyOFF FREE Account.</p>
 
-			<div class="row pb30">
+			<div class="row pb30 block-center">
 				<div class="package-hint mr50">
 					<div class="title">Deine Vorteile:</div>
 					<ul>
@@ -186,68 +199,72 @@ Im Urlaub oder Caffee das offene WLAN nutzen? Ohne Spy- OFF sind Deine persönl
 			</div>
 
 			<div class="bottom">
-				<a href="" class="back" id="js-next1">weiter</a> <a href="" class="btn btn-secondary">Abbrechen</a>
+				<a href="" class="back">weiter</a> <a href="" class="btn btn-secondary">Abbrechen</a>
 			</div>
  
 		</div>
 	</div>
 
 	<div id="js-form-step8" class="row js-steps hidden">
-		<div class="col img col-md-5 col-xs-12"></div>
+		<div class="col img slide-7 col-md-5 col-xs-12"></div>
 		<div class="col step-text col-md-7 col-xs-12">
 			<h1>SpyOFF kündigen</h1>
-			<p>Schade, dass Du SPyOFF verlassen möchstest und in Zukunft nicht mehr sicher und anonym im Internet surfen willst.</p>
+			<p class="mb10">Schade, dass Du SPyOFF verlassen möchstest und in Zukunft nicht mehr sicher und anonym im Internet surfen willst.</p>
 
 			<h2>Wie kündige ich meinen SpyOFF Account?</h2>
-			<p>Bitte schicke uns Deinen Kündigungswunsch per E-Mail an folgende E-Mail-Adresse:<br>
-			<a href="mailto:info@spyoff.com">info@spyoff.com</a></p>
+			<p class="mb10">
+				Bitte schicke uns Deinen Kündigungswunsch per E-Mail an folgende E-Mail-Adresse:<br>
+				<a href="mailto:info@spyoff.com">info@spyoff.com</a>
+			</p>
 
-			<p>oder kontaktiere uns mittels des Kontaktformulares.</p>
+			<p class="mb10">oder kontaktiere uns mittels des Kontaktformulares.</p>
 			<a href="" class="btn btn-secondary btn-center">Support kontaktieren</a>
 
-			<p>WICHTIG:<br>
-			Folgende Daten bitte zur Identifikation des Accounts in der Kündigungsmail angeben:</p>
+			<p class="mb10">
+				WICHTIG:<br>
+				Folgende Daten bitte zur Identifikation des Accounts in der Kündigungsmail angeben:
+			</p>
 			 
-			<p><b>SpyOFF Benutzername</b><br> <b>E-Mail-Adresse</b></p>
+			<p class="mb10"><b>SpyOFF Benutzername</b><br> <b>E-Mail-Adresse</b></p>
 
 			<div class="bottom">
-				<a href="" class="back" id="js-next1">weiter</a>
+				<a href="" class="back">weiter</a>
 				<a href="" class="btn btn-secondary">Zurück zur Kontoübersicht</a>
 			</div>
  
 		</div>
 	</div>
 
-	<div id="js-form-step9" class="row js-steps hidden bigtext">
+	<div id="js-form-step9" class="row js-steps hidden bigtext bg-happy">
 		<div class="col col-md-5 col-xs-12"></div>
 		<div class="col step-text col-md-7 col-xs-12">
 			<h2>Schön, dass Du bleibst!</h2>
 			<p>Dein Testzeitraum wurde erfolgreich verlängert</p>
 			<p>Ende des Testzeitraumes: XX.XX.XXX</p>
-			<a href="" class="back" id="js-next1">weiter</a>
+			<a href="" class="back">weiter</a>
 			<a href="" class="btn btn-secondary btn-center">Zurück zur Übersicht</a>
 		</div>
 	</div>
 
-	<div id="js-form-step10" class="row js-steps hidden bigtext">
+	<div id="js-form-step10" class="row js-steps hidden bigtext bg-happy">
 		<div class="col col-md-5 col-xs-12"></div>
 		<div class="col step-text col-md-7 col-xs-12">
 			<h2>Schön, dass Du bleibst!</h2>
 			<p>Dein neues Paket wurde erfolgreich gebucht!</p>
 			<p>Dein neues Paket startet am: XX-XX-XXXX</p>
-			<a href="" class="back" id="js-next1">weiter</a>
+			<a href="" class="back">weiter</a>
 			<a href="" class="btn btn-secondary btn-center">Zurück zur Übersicht</a>
 		</div>
 	</div>
 
 	<div id="js-form-step11" class="row js-steps hidden">
-		<div class="icon icon-reload"></div>
-		<div class="col img col-md-5 col-xs-12"></div>
+		<div class="overlay overlay-reload"></div>
+		<div class="col img slide-5 col-md-5 col-xs-12"></div>
 		<div class="col step-text col-md-7 col-xs-12">
 			<h1>Ganz einfach wechseln!</h1>
 			<p>Bitte bestätige die SpyOFF AGBs um Dein neues Paket endgültig zu buchen.</p>
 
-			<div class="row pb30">
+			<div class="row pb30 block-center">
 				<div class="package mr50">
 					<div class="title">PREMIUM</div>
 					<p>Name : PREMIUM<br>
@@ -281,22 +298,142 @@ pro Monat
 
 			<p>&nbsp;</p>
 			<div class="bottom">
-				<a href="" class="back" id="js-next1">zurück</a> <a href="" class="btn btn-secondary">Abbrechen</a>
+				<a href="" class="back">zurück</a> <a href="" class="btn btn-secondary">Abbrechen</a>
 			</div>
  
 		</div>
 	</div>
 
-	<div style="clear:both"></div>
+	<div class="cb"></div>
 </div>
 </div>
 
 <p>&nbsp;</p>
+
 <style type="text/css">
-/* step1 */
+/* General */
 .modal-cancel {
-	background-color: white;	
+	background-color: white;
 }
+.modal-cancel .step-text {
+	font-size: 14px;
+}
+.modal-cancel .step-text {
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.modal-cancel .step-text {
+	z-index: 11;
+}
+.modal-cancel h1 {
+    font-size: 29px;
+    font-weight: bold;
+	color: #3fa5ed;
+	border-bottom: 2px solid #3fa5ed;
+}
+.modal-cancel h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.modal-cancel .mb10 {
+	margin-bottom: 10px;
+}
+.modal-cancel p {
+	margin-bottom: 0;
+}
+.modal-cancel .bottom a {
+	padding-right: 10px;
+}
+.modal-cancel .bottom {
+	float: right;
+}
+.modal-cancel .back {
+	color:#3fa5ed;
+}
+.modal-cancel .pb30 {
+    padding-bottom: 30px;
+}
+.modal-cancel .pb10 {
+    padding-bottom: 10px;
+}
+.modal-cancel .block-center {
+    margin: 0 auto;	
+}
+.modal-cancel .tac {
+	text-align: center;
+}
+
+/** Slides */
+.modal-cancel .slide-1 {
+	background-image: url('img/slide-1.jpg');
+}
+.modal-cancel .slide-2 {
+	background-image: url('img/slide-2.jpg');
+}
+.modal-cancel .slide-3 {
+	background-image: url('img/slide-3.jpg');
+}
+.modal-cancel .slide-4 {
+	background-image: url('img/slide-4.jpg');
+}
+.modal-cancel .slide-5 {
+	background-image: url('img/slide-5.jpg');
+}
+.modal-cancel .slide-6 {
+	background-image: url('img/slide-6.jpg');
+}
+.modal-cancel .slide-7 {
+	background-image: url('img/slide-7.jpg');
+}
+.modal-cancel .bg-happy {
+	background-image: url('img/bg-happy.jpg');	
+}
+.modal-cancel .img {
+	/*background-size: contain;
+	background-repeat: no-repeat;*/
+	background-size: cover;
+}
+@media screen and (max-width: 800px) {
+	.modal-cancel .img {
+		display: none;
+	}
+}
+
+/** overlay */
+.modal-cancel .overlay {
+	display: none;
+	position: absolute;
+	left: -20;
+	width: 500px;
+	height: 100%;
+	z-index: 10;
+	background-size: cover;
+}
+.modal-cancel .overlay-question {
+	background-image: url('img/overlay-question.png');
+}
+.modal-cancel .overlay-exclamation {
+	background-image: url('img/overlay-exclamation.png');
+}
+.modal-cancel .overlay-gift {
+	background-image: url('img/overlay-gift.png');
+}
+.modal-cancel .overlay-reload {
+	background-image: url('img/overlay-reload.png');
+}
+.modal-cancel .overlay-15percent {
+	background-image: url('img/overlay-15percent.png');
+}
+.modal-cancel .overlay-free {
+	background-image: url('img/overlay-free.png');
+}
+@media screen and (min-width: 1380px) {
+	.modal-cancel .overlay {
+		display: block;
+	}
+}
+
+/* Step specific CSS */
 .modal-cancel .smcx-iframe-container {
 	background-color: transparent !important;
 }
@@ -311,79 +448,6 @@ pro Monat
 	margin: 0 !important;
 	height: 400px !important;
 }
-.modal-cancel .step-text {
-	font-size: 14px;
-}
-.modal-cancel .step-text {
-	margin-right: 20px;
-	margin-bottom: 10px;
-}
-.modal-cancel h1 {
-    font-size: 29px;	
-    font-weight: bold;
-	color: #3fa5ed;
-	border-bottom: 2px solid #3fa5ed;
-}
-.modal-cancel h2 {
-    font-size: 24px;
-    font-weight: bold;
-}
-.modal-cancel #js-form-step8 p {
-	margin-bottom: 10px;
-}
-.modal-cancel p {
-	margin-bottom: 0;
-}
-@media screen and (max-width: 800px) {
-	.modal-cancel .img {
-		display: none;
-	}
-}
-.modal-cancel .icon {
-	display: none;
-	position: absolute;
-	left: -20;
-	width: 500px;
-	height: 100%;
-	z-index: 10;
-	background-size: cover;
-}
-.modal-cancel .icon-question {
-	background-image: url('img/BG_1.png');
-}
-.modal-cancel .icon-exclamation {
-	background-image: url('img/BG_2.png');
-}
-.modal-cancel .icon-gift {
-	background-image: url('img/BG_3.png');
-}
-.modal-cancel .icon-reload {
-	background-image: url('img/BG_4.png');
-}
-.modal-cancel .icon-15percent {
-	background-image: url('img/BG_5.png');
-}
-.modal-cancel .icon-free {
-	background-image: url('img/BG_6.png');
-}
-
-.modal-cancel .step-text {
-	z-index: 11;
-}
-@media screen and (min-width: 1380px) {
-	.modal-cancel .icon {
-		display: block;
-	}
-}
-.modal-cancel .bottom a {
-	padding-right: 10px;
-}
-.modal-cancel .bottom {
-	float: right;
-}
-.modal-cancel .back {
-	color:#3fa5ed;
-}
 
 /* step2 */
 .modal-cancel ul {
@@ -391,11 +455,11 @@ pro Monat
 	padding: 0;
 }
 
-.fl {
+.modal-cancel .fl {
 	float: left;
 	padding-right: 10px;
 }
-.cb {
+.modal-cancel .cb {
 	clear: both;
 }
 .modal-cancel h1.red {
@@ -413,53 +477,8 @@ pro Monat
 	display: -webkit-flex;
 	display: flex;
 }
-/*.col {
-	flex: 1;
-}*/
-.modal-cancel #js-form-step1 .img {
-	background-image: url('img/step1.jpg');
-}
-.modal-cancel #js-form-step2 .img {
-	background-image: url('img/step2.jpg');
-}
-.modal-cancel #js-form-step3 .img {
-	background-image: url('img/step3.jpg');
-}
-.modal-cancel #js-form-step4 .img {
-	background-image: url('img/step4.jpg');
-}
-.modal-cancel #js-form-step5 .img {
-	background-image: url('img/step5.jpg');
-}
-.modal-cancel #js-form-step6 .img {
-	background-image: url('img/step6.jpg');
-}
-.modal-cancel #js-form-step7 .img {
-	background-image: url('img/step4.jpg');
-}
-.modal-cancel #js-form-step8 .img {
-	background-image: url('img/step7.jpg');
-}
-.modal-cancel #js-form-step9 {
-	background-image: url('img/happy.jpg');	
-}
-.modal-cancel #js-form-step10 {
-	background-image: url('img/happy.jpg');	
-}
-.modal-cancel #js-form-step11 .img {
-	background-image: url('img/step5.jpg');	
-}
 
-.modal-cancel .img {
-	/*background-size: contain;
-	background-repeat: no-repeat;*/
-	background-size: cover;
-}
-.modal-cancel #js-form-step2 div {
-	padding-bottom: 30px;
-}
-
-.package {
+.modal-cancel .package {
 	width: 204px;
 	height: 227px;
 	border: 1px solid #dfdfde;
@@ -469,8 +488,8 @@ pro Monat
 	float: left;
 	cursor: pointer;
 }
-.package .title,
-.package-hint .title {
+.modal-cancel .package .title,
+.modal-cancel .package-hint .title {
 	width: 204px;
 	height: 39px;
 	color: #585858;
@@ -478,35 +497,35 @@ pro Monat
 	padding-top: 10px;
 	font-weight: bolder;
 }
-.package .title {
+.modal-cancel .package .title {
 	padding-left: 10px;
 	border-bottom: 1px solid #dfdfde;
 }
-.package p.bold {
+.modal-cancel .package p.bold {
 	font-size: 21px;
     font-weight: bolder;
     height: 50px;
 }
-.package p {
+.modal-cancel .package p {
 	padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     height: 100px;
 }
-.package .selected {
+.modal-cancel .package .selected {
 	display: none;
 }
-.package.selected {
+.modal-cancel .package.selected {
 	background-color: #3fa5ed;
 	border: 1px solid #FFFFFF;
 	color: #ffffff;
 }
-.package.selected .title {
+.modal-cancel .package.selected .title {
 	border-bottom: 1px solid #FFFFFF;
 	color: #ffffff;
 }
 
-.package.selected .selected {
+.modal-cancel .package.selected .selected {
     display: block;
     background-color: #ffffff;
     width: 160px;
@@ -517,65 +536,69 @@ pro Monat
     font-size: 15px;
     font-weight: bolder;
 }
-.package .mr50 {
+.modal-cancel .package .mr50 {
 	margin-right: 50px;
 }
-.package.center {
+.modal-cancel .package.center {
 	margin: 0 auto;
 }
-.fill50 {
+.modal-cancel .fill50 {
     width: 50px;
     height: 30px;
     float: left;
 }
-.pb30 {
-    margin: 0 auto;
-    padding-bottom: 30px;
-}
-.pb10 {
-    margin: 0 auto;
-    padding-bottom: 10px;
-}
-
-#js-form-step5 p {
-	padding-bottom: 10px;
-}
-.tac {
-	text-align: center;
-}
-.btn-center {
+.modal-cancel .btn-center {
 	display: block;
     margin: 0 auto;
     width: 150px;
 }
 
-.package-hint ul {
+.modal-cancel .package-hint ul {
 	list-style-type: disc;
 	width: 204px;
 }
 
-.bigtext h2 {
+.modal-cancel .bigtext h2 {
 	padding-top: 150px;
     border-bottom: 2px solid #ffffff;
     color: #ffffff;
 }
-.bigtext p {
+.modal-cancel .bigtext p {
 	padding-bottom: 20px;
 	color: #FFFFFF;
 }
-.bigtext {
+.modal-cancel .bigtext {
     min-height: 667px;
 }
-.bigtext .btn-secondary, .bigtext .btn-secondary:hover {
+.modal-cancel .bigtext .btn-secondary, .bigtext .btn-secondary:hover {
 	background-color: #FFFFFF;
 	color: #259aeb;
 }
 
-/* Opera hack */
-noindex:-o-prefocus, .class {
-	.modal-cancel .icon {
-		display: none;
-	}
+.modal-cancel .resizable-blocks {
+	background-image: url('img/bg-icons.png');
+	min-height: 400px;
+	background-repeat: no-repeat;
+	position: relative;
+	max-width: 400px;
+}
+.modal-cancel .resizable-blocks .text {
+	position: absolute;
+	top: 45%;
+	left: 25%;
+	font-weight: bold;
+	font-size: 30px;
+}
+.modal-cancel .dp {
+	display: block;
+}
+.modal-cancel .resizable-blocks .button {
+	position: absolute;
+	top: 60%;
+	left: 25%;
+}
+.modal-cancel .resizable-blocks .button a {
+	width: 210px
 }
 </style>
 <script>
